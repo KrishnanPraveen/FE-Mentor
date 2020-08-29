@@ -384,34 +384,42 @@ input[type='radio']:checked ~ label::after {
 
 .anim_part_1{
     animation: slideUp .5s linear 0s;
+    animation-fill-mode: backwards;
 }
 
 .anim_part_2{
     animation: slideUp .5s linear 1s;
+    animation-fill-mode: backwards;
 }
 
 .anim_part_3{
     animation: slideUp .5s linear 2s;
+    animation-fill-mode: backwards;
 }
 
 .anim_part_4{
     animation: slideUp .5s linear 3s;
+    animation-fill-mode: backwards;
 }
 
 .anim_part_5{
     animation: slideUp .5s linear 4s;
+    animation-fill-mode: backwards;
 }
 
 .anim_part_6{
     animation: slideUp .5s linear 5s;
+    animation-fill-mode: backwards;
 }
 
 .anim_part_7{
     animation: slideUp .5s linear 6s;
+    animation-fill-mode: backwards;
 }
 
 .anim_part_8{
     animation: slideUp .5s linear 7s;
+    animation-fill-mode: backwards;
 }
 
 @keyframes slideUp{
